@@ -5,7 +5,7 @@ st.title("Exam1sridharreddy")
 
 @st.cache
 def load_data():
-    return pd.read_csv(Clean_df.csv)
+    return pd.read_csv(clean_df.csv)
 
 data = load_data()
 
